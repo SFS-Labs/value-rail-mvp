@@ -1,17 +1,6 @@
 name: CoinGate Clearance signal feed
-on:
-  schedule:
-    - cron: '17,47 * * * *'
+'on':
   workflow_dispatch:
-  push:
-    branches: [master, fix/review-valuation-worker-health, clearance-signals]
-    paths:
-      - '.github/workflows/clearance-feed.yml'
-      - 'src/value_rail/clearance_feed.py'
-      - 'src/value_rail/connectors/coingate_clearance.py'
-      - 'scripts/export_clearance_feed.py'
-      - 'config/production.toml'
-      - 'chatgpt-delivery.json'
 permissions:
   contents: write
 concurrency:
