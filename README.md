@@ -69,7 +69,7 @@ The UI is at `http://localhost:8000`. Without Telegram configuration, delivery u
 
 ## Contribution attribution
 
-Mathias Steinbach owns the use case, requirements and ongoing development direction. Implementation, review and documentation use AI-assisted development. Git history and PR discussions are the available provenance; an account author field does not prove manual authorship of every line. This portfolio review changed presentation only and did not independently establish a per-component split between earlier AI tools and manual work.
+Mathias Steinbach owns the use case, requirements and ongoing development direction. Implementation, review and documentation use AI-assisted development.
 
 ## Next milestones
 
@@ -78,4 +78,3 @@ Mathias Steinbach owns the use case, requirements and ongoing development direct
 3. Strengthen reproducible deployment/restore evidence for the optional worker.
 4. Extend sources or valuation only when scope, permissions and actual quote evidence justify it.
 
-No automated purchases, confirmed net-return claims or completed enterprise deployment are presented.
