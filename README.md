@@ -1,5 +1,7 @@
 # Value Rail — CoinGate Clearance Tracker
 
+<img src="https://raw.githubusercontent.com/SFS-Labs/SFS-Labs/main/branding/sfs-lockup-light.svg" width="320" alt="SFS.Labs" />
+
 A Python monitoring MVP that turns a changing gift-card clearance inventory into filtered, persisted signals. The engineering focus is **source ingestion, deterministic validation, inventory lifecycle tracking and observable delivery workflows**.
 
 **Current milestone:** scheduled GitHub Actions feed with an optional self-hosted worker and web UI. This is an evolving personal project. A nominal discount is a price observation; it does not establish an executable trade, net return or commercial result.
